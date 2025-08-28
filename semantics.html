@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics </title>
+
+    <style>
+        div{
+            background-color: yellow;
+            border: 1px solid rgb(53, 36, 36);
+            padding: 3px;
+        }
+
+        span{
+            background-color: gray;
+        }
+
+        .div2{
+            display: flex ;
+        }
+
+        .div3{
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <!-- Semantics -->
+    <h2>Semantics Elements</h2> 
+    <header style="background-color: red;">Header</header>
+    <nav style="background-color: orange;">Nav</nav>
+    <aside style="background-color: rgb(245, 245, 139);">Aside</aside>
+
+    <main style="background-color: rgb(219, 130, 219); padding: 20px;">
+        <article style="background-color: blue; padding: 10px;">
+            <figure style="background-color: lightblue;">Figure</figure>
+            <p style="background-color: greenyellow;">paragraph</p>
+        </article>
+
+        <section style="background-color: purple;">Section</section>
+    </main>
+
+    <footer style="background-color: rgb(56, 162, 56);">Footer</footer>
+    
+    <!-- Non-semantics -->
+    
+    <h2>Non-Semantics Elements</h2>
+
+    <div class="">
+        <div>Div 1</div>
+        <span>Span</span>
+        <div class="div2">
+            <div>div</div>
+            <div>
+                <div>
+                    <div>div</div>
+                    <div>div</div>
+                </div>
+                <div>div</div>
+            </div>
+        </div>
+        <div class="div3">Div 3</div>
+    </div>
+</body>
+</html>
